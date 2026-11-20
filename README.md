@@ -53,7 +53,7 @@ Tenía varias computadoras viejas (una HP EliteDesk 800 G1 entre ellas) y querí
   </tr>
   <tr>
     <td align="center"><img src="docs/img/cpu-z.jpg" width="380"><br><sub>CPU-Z desde Hiren's: datos del procesador</sub></td>
-    <td align="center"><img src="docs/img/ventoy-rescate.jpg" width="380"><br><sub>Carpeta Rescate con nombres y avisos de ventoy.json</sub></td>
+    <td align="center"><img src="docs/img/menu/aviso-shredos.png" width="380"><br><sub>Aviso en rojo al resaltar ShredOS (ventoy.json)</sub></td>
   </tr>
 </table>
 
@@ -89,6 +89,7 @@ Después:
 | 5 | [Problemas frecuentes](docs/05-problemas.md) | Errores del instalador, arranque, discos |
 | 6 | [Herramientas portables](docs/06-herramientas-portables.md) | WinDirStat y NirSoft desde Windows |
 | 7 | [Ejemplos de terminal](docs/07-ejemplos-terminal.md) | Cómo se ve cada comando y qué mirar |
+| 8 | [Probar con QEMU](docs/08-probar-con-qemu.md) | Ver el menú y los avisos sin reiniciar |
 
 ## Probado en
 
