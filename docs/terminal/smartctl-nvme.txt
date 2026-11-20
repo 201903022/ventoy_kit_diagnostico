@@ -1,0 +1,17 @@
+title: Salud de un disco NVMe
+$ sudo smartctl -a /dev/nvme0
+Model Number:                       KINGSTON SNV2S500G
+Firmware Version:                   SBI02102
+...
+! SMART overall-health self-assessment test result: PASSED || resumen: aprobado
+! Critical Warning:                   0x00 || 0x00 = sin alertas
+Temperature:                        50 Celsius
+! Available Spare:                    100% || reserva de celdas
+Available Spare Threshold:          10% || mínimo antes de alertar
+! Percentage Used:                    8% || desgaste estimado
+Data Units Written:                 159,434,827 [81.6 TB]
+Power Cycles:                       11,204
+Power On Hours:                     12,896 || horas encendido
+? Unsafe Shutdowns:                   3,451 || apagones bruscos
+! Media and Data Integrity Errors:    0 || debe ser 0
+! Error Information Log Entries:      0

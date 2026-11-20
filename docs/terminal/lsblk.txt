@@ -1,0 +1,6 @@
+title: lsblk filtrado: solo discos reales
+$ lsblk -d -I 8,259 -o NAME,SIZE,MODEL,TRAN
+NAME      SIZE MODEL                           TRAN
+! sda      57.7G DataTraveler 3.0                usb  || la USB: TRAN dice usb
+nvme1n1 465.8G KINGSTON SNV2S500G              nvme || disco interno: no tocar
+nvme0n1 476.9G WD PC SN5000S SDEQNSJ-512G-1014 nvme || disco interno: no tocar

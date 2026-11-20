@@ -1,0 +1,16 @@
+title: lsblk sin filtro: aparecen dispositivos que no son discos
+$ lsblk -d -o NAME,SIZE,MODEL,TRAN
+NAME      SIZE MODEL                           TRAN
+? loop0       4K                                      || loop = apps de Snap montadas
+loop1   105.2M
+loop2    63.8M
+loop3    55.5M
+loop4   164.8M
+loop5    91.7M
+loop6    49.3M
+loop7   139.7M
+? loop8    66.8M                                      || no son discos: ignorar
+! sda      57.7G DataTraveler 3.0                usb  || la USB
+? zram0       8G                                      || swap comprimida en la RAM
+nvme1n1 465.8G KINGSTON SNV2S500G              nvme || disco interno
+nvme0n1 476.9G WD PC SN5000S SDEQNSJ-512G-1014 nvme || disco interno

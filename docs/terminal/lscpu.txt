@@ -1,0 +1,7 @@
+title: Qué procesador tiene el equipo
+$ lscpu | grep -E "Model name|^CPU\(s\)|Thread|Core|Socket"
+CPU(s):                   12 || hilos en total
+! Model name:               AMD Ryzen 5 240 w/ Radeon 760M Graphics || modelo exacto
+Thread(s) per core:       2
+! Core(s) per socket:       6 || núcleos reales
+Socket(s):                1

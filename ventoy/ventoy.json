@@ -1,0 +1,80 @@
+{
+  "control": [
+    {
+      "VTOY_DEFAULT_MENU_MODE": "1"
+    }
+  ],
+  "menu_alias": [
+    {
+      "image": "/Diagnostico/memtest.iso",
+      "alias": "Memtest86+ - Probar la RAM"
+    },
+    {
+      "image": "/Linux/fedora-live.iso",
+      "alias": "Fedora Live - Probar equipo"
+    },
+    {
+      "image": "/Linux/ubuntu-server.iso",
+      "alias": "Ubuntu Server - Instalar servidor"
+    },
+    {
+      "image": "/Rescate/systemrescue.iso",
+      "alias": "SystemRescue - Rescate, discos y SMART"
+    },
+    {
+      "image": "/Rescate/clonezilla.iso",
+      "alias": "Clonezilla - Respaldo de discos (texto)"
+    },
+    {
+      "image": "/Rescate/rescuezilla.iso",
+      "alias": "Rescuezilla - Respaldo de discos (ventanas)"
+    },
+    {
+      "image": "/Rescate/shredos.iso",
+      "alias": "ShredOS - BORRAR DISCOS (peligro)"
+    },
+    {
+      "image": "/Windows/hirens.iso",
+      "alias": "Hirens BootCD - Windows PE con herramientas"
+    }
+  ],
+  "menu_tip": {
+    "left": "5%",
+    "top": "88%",
+    "color": "red",
+    "tips": [
+      {
+        "image": "/Diagnostico/memtest.iso",
+        "tip": "Prueba la RAM. Dejar varias pasadas. ESC para salir."
+      },
+      {
+        "image": "/Linux/fedora-live.iso",
+        "tip": "Elegir Try Fedora, NO Install. No toca los discos."
+      },
+      {
+        "image": "/Linux/ubuntu-server.iso",
+        "tip": "Instalador: SI formatea el disco que elijas."
+      },
+      {
+        "image": "/Rescate/systemrescue.iso",
+        "tip": "Rescate y SMART. Seguro si solo miras."
+      },
+      {
+        "image": "/Rescate/clonezilla.iso",
+        "tip": "Restaurar SOBRESCRIBE el disco de destino."
+      },
+      {
+        "image": "/Rescate/rescuezilla.iso",
+        "tip": "Restaurar SOBRESCRIBE el disco de destino."
+      },
+      {
+        "image": "/Rescate/shredos.iso",
+        "tip": "PELIGRO: borra discos sin vuelta atras. Revisar el disco 2 veces."
+      },
+      {
+        "image": "/Windows/hirens.iso",
+        "tip": "Mirar con CPU-Z, HWiNFO, CrystalDiskInfo. No uses herramientas de particion o claves."
+      }
+    ]
+  }
+}
