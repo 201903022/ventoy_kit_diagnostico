@@ -1,6 +1,7 @@
 # 1. Instalar Ventoy en la USB (desde Linux)
 
-> ⚠️ Esto **borra todo** lo que tenga la USB.
+> [!WARNING]
+> Esto **borra todo** lo que tenga la USB.
 
 ## Identificar la USB
 
