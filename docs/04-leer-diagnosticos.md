@@ -104,3 +104,5 @@ Batería (si aplica):
 Veredicto: usar tal cual / ampliar RAM / cambiar disco / descartar
 Compras necesarias:
 ```
+
+Ver ejemplos reales en la [guía 7](07-ejemplos-terminal.md).

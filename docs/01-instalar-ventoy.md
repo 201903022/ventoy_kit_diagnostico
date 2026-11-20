@@ -59,3 +59,5 @@ udisksctl power-off -b /dev/sda
 3. En el menú de Ventoy elige la ISO → **Boot in normal mode**.
 
 Si no arranca, en la BIOS desactiva **Secure Boot** (y en equipos viejos revisa **Fast Boot** y **Legacy Support**).
+
+Ver ejemplos reales en la [guía 7](07-ejemplos-terminal.md).

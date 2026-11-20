@@ -2,4 +2,11 @@
 *.zip
 *.img
 *.tar.gz
+*.wim
+*.vhd
+*.sha256
+*.sha1
+SHA256SUMS
+CHECKSUM
+/tmp/
 CLAUDE.md

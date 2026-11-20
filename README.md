@@ -68,6 +68,10 @@ sudo umount /dev/sda1 /dev/sda2        # "not mounted" está bien
 sudo sh Ventoy2Disk.sh -i /dev/sda
 ```
 
+Así se ve `lsblk` cuando identificas la USB:
+
+<img src="docs/img/terminal/lsblk.svg" alt="lsblk mostrando la USB y los discos internos">
+
 Después:
 
 1. Crea las carpetas y copia las ISO a la unidad **Ventoy**.
@@ -84,6 +88,7 @@ Después:
 | 4 | [Leer diagnósticos](docs/04-leer-diagnosticos.md) | RAM, SMART, temperaturas y qué comprar |
 | 5 | [Problemas frecuentes](docs/05-problemas.md) | Errores del instalador, arranque, discos |
 | 6 | [Herramientas portables](docs/06-herramientas-portables.md) | WinDirStat y NirSoft desde Windows |
+| 7 | [Ejemplos de terminal](docs/07-ejemplos-terminal.md) | Cómo se ve cada comando y qué mirar |
 
 ## Probado en
 
