@@ -1,0 +1,1 @@
+# ventoy_kit_diagnostico
