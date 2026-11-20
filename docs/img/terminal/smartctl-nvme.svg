@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="741" height="402" viewBox="0 0 741 402">
+<rect width="741" height="402" rx="10" fill="#1e1e2e"/>
+<path d="M0 10a10 10 0 0 1 10-10h721a10 10 0 0 1 10 10v24h-741z" fill="#181825"/>
+<circle cx="20" cy="17.0" r="6" fill="#f38ba8"/>
+<circle cx="40" cy="17.0" r="6" fill="#f9e2af"/>
+<circle cx="60" cy="17.0" r="6" fill="#a6e3a1"/>
+<text x="370.5" y="22.0" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" text-anchor="middle">Salud de un disco NVMe</text>
+<text x="18" y="65.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#a6e3a1">fedora</tspan><tspan fill="#89b4fa"> ~</tspan><tspan fill="#a6e3a1"> ❯ </tspan><tspan fill="#f5e0dc">sudo smartctl -a /dev/nvme0</tspan></text>
+<text x="18" y="86.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Model Number:                       KINGSTON SNV2S500G</tspan></text>
+<text x="18" y="107.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Firmware Version:                   SBI02102</tspan></text>
+<text x="18" y="128.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">...</tspan></text>
+<rect x="12" y="134" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="134" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="149.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">SMART overall-health self-assessment test result: PASSED</tspan></text>
+<text x="522.0" y="149.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← resumen: aprobado</text>
+<rect x="12" y="155" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="155" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="170.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Critical Warning:                   0x00</tspan></text>
+<text x="522.0" y="170.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← 0x00 = sin alertas</text>
+<text x="18" y="191.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Temperature:                        50 Celsius</tspan></text>
+<rect x="12" y="197" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="197" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="212.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Available Spare:                    100%</tspan></text>
+<text x="522.0" y="212.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← reserva de celdas</text>
+<text x="18" y="233.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Available Spare Threshold:          10%</tspan></text>
+<text x="522.0" y="233.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← mínimo antes de alertar</text>
+<rect x="12" y="239" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="239" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="254.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Percentage Used:                    8%</tspan></text>
+<text x="522.0" y="254.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← desgaste estimado</text>
+<text x="18" y="275.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Data Units Written:                 159,434,827 [81.6 TB]</tspan></text>
+<text x="18" y="296.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Power Cycles:                       11,204</tspan></text>
+<text x="18" y="317.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Power On Hours:                     12,896</tspan></text>
+<text x="522.0" y="317.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← horas encendido</text>
+<rect x="12" y="323" width="490.8" height="21" rx="3" fill="#f9e2af" fill-opacity="0.16"/>
+<rect x="12" y="323" width="3" height="21" fill="#f9e2af"/>
+<text x="18" y="338.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Unsafe Shutdowns:                   3,451</tspan></text>
+<text x="522.0" y="338.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← apagones bruscos</text>
+<rect x="12" y="344" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="344" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="359.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Media and Data Integrity Errors:    0</tspan></text>
+<text x="522.0" y="359.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← debe ser 0</text>
+<rect x="12" y="365" width="490.8" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="365" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="380.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">Error Information Log Entries:      0</tspan></text>
+</svg>

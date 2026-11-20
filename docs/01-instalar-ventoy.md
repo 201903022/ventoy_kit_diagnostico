@@ -1,13 +1,14 @@
 # 1. Instalar Ventoy en la USB (desde Linux)
 
-> ⚠️ Esto **borra todo** lo que tenga la USB.
+> [!WARNING]
+> Esto **borra todo** lo que tenga la USB.
 
 ## Identificar la USB
 
 Ejecuta esto **sin** la USB y luego **con** la USB conectada. Lo que aparece nuevo es la USB.
 
 ```bash
-lsblk -o NAME,SIZE,MODEL,TRAN
+lsblk -d -I 8,259 -o NAME,SIZE,MODEL,TRAN
 ```
 
 Ejemplo:
@@ -58,3 +59,5 @@ udisksctl power-off -b /dev/sda
 3. En el menú de Ventoy elige la ISO → **Boot in normal mode**.
 
 Si no arranca, en la BIOS desactiva **Secure Boot** (y en equipos viejos revisa **Fast Boot** y **Legacy Support**).
+
+Ver ejemplos reales en la [guía 7](07-ejemplos-terminal.md).

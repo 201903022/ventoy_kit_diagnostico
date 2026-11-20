@@ -13,7 +13,8 @@ Descarga siempre de la página **oficial** y verifica la ISO con su checksum. Un
 | ShredOS | <https://github.com/PartialVolume/shredos.x86-64/releases> (usa la versión `x86-64`, no la `i686`) |
 | Hiren's BootCD PE | <https://www.hirensbootcd.org/download/> |
 
-❌ No descargues el `.torrent` (Ventoy no lo puede usar) ni copies el `.zip` de memtest.
+> [!CAUTION]
+> No descargues el `.torrent` (Ventoy no lo puede usar) ni copies el `.zip` de memtest.
 
 ## Verificar
 

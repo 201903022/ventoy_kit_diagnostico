@@ -1,0 +1,22 @@
+title: Cuánta RAM cabe y qué ranuras están libres (HP EliteDesk 800 G1)
+$ sudo dmidecode -t 16 | grep -E "Maximum Capacity|Number Of Devices"
+!   Maximum Capacity: 32 GB || lo máximo que acepta la placa
+!   Number Of Devices: 4 || ranuras en total
+
+$ sudo dmidecode -t memory | grep -E "^\s+(Size|Locator|Type|Speed):"
+  Size: 4 GB
+  Locator: DIMM1
+  Type: DDR3 || compra el mismo tipo
+  Speed: 1600 MT/s
+?   Size: No Module Installed || ranura libre
+  Locator: DIMM2
+  Type: Unknown
+  Speed: Unknown
+  Size: 4 GB
+  Locator: DIMM3
+  Type: DDR3
+  Speed: 1600 MT/s
+?   Size: No Module Installed || ranura libre
+  Locator: DIMM4
+  Type: Unknown
+  Speed: Unknown

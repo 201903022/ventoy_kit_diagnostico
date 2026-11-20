@@ -35,6 +35,8 @@ python3 -m json.tool ventoy/ventoy.json > /dev/null && echo "JSON válido"
 
 Una coma de más y Ventoy ignora el archivo entero.
 
+Puedes ver cómo se ven los avisos y probarlos sin reiniciar en la [guía 8](08-probar-con-qemu.md).
+
 ## Menú en árbol sin `ventoy.json`
 
 En el menú de Ventoy, presiona **F3** para alternar entre vista de árbol (carpetas) y lista.

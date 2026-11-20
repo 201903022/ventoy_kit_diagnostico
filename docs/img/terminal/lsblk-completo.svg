@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="733" height="381" viewBox="0 0 733 381">
+<rect width="733" height="381" rx="10" fill="#1e1e2e"/>
+<path d="M0 10a10 10 0 0 1 10-10h713a10 10 0 0 1 10 10v24h-733z" fill="#181825"/>
+<circle cx="20" cy="17.0" r="6" fill="#f38ba8"/>
+<circle cx="40" cy="17.0" r="6" fill="#f9e2af"/>
+<circle cx="60" cy="17.0" r="6" fill="#a6e3a1"/>
+<text x="366.5" y="22.0" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" text-anchor="middle">lsblk sin filtro: aparecen dispositivos que no son discos</text>
+<text x="18" y="65.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#a6e3a1">fedora</tspan><tspan fill="#89b4fa"> ~</tspan><tspan fill="#a6e3a1"> ❯ </tspan><tspan fill="#f5e0dc">lsblk -d -o NAME,SIZE,MODEL,TRAN</tspan></text>
+<text x="18" y="86.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">NAME      SIZE MODEL                           TRAN</tspan></text>
+<rect x="12" y="92" width="440.40000000000003" height="21" rx="3" fill="#f9e2af" fill-opacity="0.16"/>
+<rect x="12" y="92" width="3" height="21" fill="#f9e2af"/>
+<text x="18" y="107.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop0       4K                                     </tspan></text>
+<text x="471.6" y="107.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← loop = apps de Snap montadas</text>
+<text x="18" y="128.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop1   105.2M</tspan></text>
+<text x="18" y="149.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop2    63.8M</tspan></text>
+<text x="18" y="170.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop3    55.5M</tspan></text>
+<text x="18" y="191.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop4   164.8M</tspan></text>
+<text x="18" y="212.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop5    91.7M</tspan></text>
+<text x="18" y="233.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop6    49.3M</tspan></text>
+<text x="18" y="254.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop7   139.7M</tspan></text>
+<rect x="12" y="260" width="440.40000000000003" height="21" rx="3" fill="#f9e2af" fill-opacity="0.16"/>
+<rect x="12" y="260" width="3" height="21" fill="#f9e2af"/>
+<text x="18" y="275.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">loop8    66.8M                                     </tspan></text>
+<text x="471.6" y="275.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← no son discos: ignorar</text>
+<rect x="12" y="281" width="440.40000000000003" height="21" rx="3" fill="#a6e3a1" fill-opacity="0.16"/>
+<rect x="12" y="281" width="3" height="21" fill="#a6e3a1"/>
+<text x="18" y="296.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">sda      57.7G DataTraveler 3.0                usb </tspan></text>
+<text x="471.6" y="296.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← la USB</text>
+<rect x="12" y="302" width="440.40000000000003" height="21" rx="3" fill="#f9e2af" fill-opacity="0.16"/>
+<rect x="12" y="302" width="3" height="21" fill="#f9e2af"/>
+<text x="18" y="317.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">zram0       8G                                     </tspan></text>
+<text x="471.6" y="317.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← swap comprimida en la RAM</text>
+<text x="18" y="338.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">nvme1n1 465.8G KINGSTON SNV2S500G              nvme</tspan></text>
+<text x="471.6" y="338.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← disco interno</text>
+<text x="18" y="359.12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve"><tspan fill="#cdd6f4">nvme0n1 476.9G WD PC SN5000S SDEQNSJ-512G-1014 nvme</tspan></text>
+<text x="471.6" y="359.12" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" xml:space="preserve">← disco interno</text>
+</svg>
