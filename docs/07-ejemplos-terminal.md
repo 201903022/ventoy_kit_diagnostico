@@ -11,14 +11,44 @@ Puedes correr todos estos comandos desde **Fedora Live** o **SystemRescue**, sin
 
 ## 1. Identificar la USB
 
-<img src="img/terminal/lsblk.svg" alt="Salida de lsblk mostrando la USB y dos discos NVMe">
+### Sin filtro: aparecen cosas que no son discos
+
+<img src="img/terminal/lsblk-completo.svg" alt="Salida completa de lsblk con dispositivos loop y zram">
+
+Si corres `lsblk` tal cual, puede que veas una lista larga con nombres raros. **Ninguno de ellos es un disco:**
+
+| Nombre | Qué es | ¿Lo puedo ignorar? |
+|---|---|---|
+| `loop0`, `loop1`… | Archivos que Linux monta como si fueran discos. Casi siempre son **apps de Snap**: cada una viene en un archivo comprimido que se "conecta" como disco de solo lectura. | Sí |
+| `zram0` | **Memoria de intercambio comprimida dentro de la RAM.** Fedora la activa por defecto: cuando la RAM se llena, comprime datos en vez de mandarlos al disco. No ocupa espacio en ningún disco. | Sí |
+
+Para confirmarlo en tu equipo:
+
+```bash
+snap list                    # las apps de Snap instaladas
+losetup -l -O NAME,BACK-FILE # qué archivo hay detrás de cada loop
+swapon --show                # zram0 aparece como swap
+```
+
+### Con filtro: solo discos reales
+
+<img src="img/terminal/lsblk.svg" alt="Salida de lsblk filtrada mostrando la USB y dos discos NVMe">
+
+```bash
+lsblk -d -I 8,259 -o NAME,SIZE,MODEL,TRAN
+```
+
+`-I 8,259` muestra solo discos SATA/USB (`sd…`) y NVMe (`nvme…`). Es el comando recomendado en todo el kit.
 
 **Cómo leerlo**
 
 - `-d` muestra solo los discos completos, sin particiones; así la lista es más corta.
 - **`TRAN`** dice por dónde está conectado: `usb` es la memoria, `nvme` o `sata` son discos internos.
 - **`SIZE`** confirma: una USB de 64 GB aparece como unos 57–58 G (el fabricante cuenta distinto).
-- El nombre (`sda`, `sdb`) **puede cambiar** cada vez que conectas la USB. Revísalo siempre antes de un comando que borra.
+- El nombre (`sda`, `nvme0n1`) **puede cambiar** entre arranques. En este mismo equipo, otro día el Kingston salió como `nvme0n1` y hoy como `nvme1n1`. Identifica siempre los discos por **modelo y tamaño** antes de un comando que borra.
+
+> [!NOTE]
+> Algunas laptops usan lectores de tarjeta o almacenamiento eMMC (`mmcblk0`). Si no ves tu disco con el filtro, quítale `-I 8,259` y búscalo en la lista completa.
 
 ---
 

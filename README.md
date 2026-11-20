@@ -63,7 +63,7 @@ Tenía varias computadoras viejas (una HP EliteDesk 800 G1 entre ellas) y querí
 > Instalar Ventoy **borra todo** lo que tenga la USB. Confirma el dispositivo con `lsblk` antes de seguir.
 
 ```bash
-lsblk -o NAME,SIZE,MODEL,TRAN          # identifica la USB (ej. sda)
+lsblk -d -I 8,259 -o NAME,SIZE,MODEL,TRAN          # identifica la USB (ej. sda)
 sudo umount /dev/sda1 /dev/sda2        # "not mounted" está bien
 sudo sh Ventoy2Disk.sh -i /dev/sda
 ```

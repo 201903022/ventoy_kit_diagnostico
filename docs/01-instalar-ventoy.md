@@ -8,7 +8,7 @@
 Ejecuta esto **sin** la USB y luego **con** la USB conectada. Lo que aparece nuevo es la USB.
 
 ```bash
-lsblk -o NAME,SIZE,MODEL,TRAN
+lsblk -d -I 8,259 -o NAME,SIZE,MODEL,TRAN
 ```
 
 Ejemplo:
